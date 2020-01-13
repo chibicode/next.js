@@ -8,6 +8,8 @@ description: With minimal config, and without leaving React, you can start addin
   <summary><b>Examples</b></summary>
   <ul>
     <li><a href="https://github.com/zeit/next.js/tree/canary/examples/amp">AMP</a></li>
+    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/amp-first">AMP First Boilerplate</a></li>
+    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/amp-story">Google AMP Story</a></li>
   </ul>
 </details>
 
