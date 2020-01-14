@@ -93,19 +93,6 @@ These `.css` files represent hot execution paths in your application, ensuring t
 
 ## CSS-in-JS
 
-<details>
-  <summary><b>Examples</b></summary>
-  <ul>
-    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/basic-css">Styled JSX</a></li>
-    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-styled-components">Styled Components</a></li>
-    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-styletron">Styletron</a></li>
-    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-glamor">Glamor</a></li>
-    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-cxs">Cxs</a></li>
-    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-aphrodite">Aphrodite</a></li>
-    <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-fela">Fela</a></li>
-  </ul>
-</details>
-
 It's possible to use any existing CSS-in-JS solution.
 The simplest one is inline styles:
 
@@ -156,6 +143,18 @@ export default HelloWorld
 ```
 
 Please see the [styled-jsx documentation](https://github.com/zeit/styled-jsx) for more examples.
+
+### Examples
+
+<ul class="inline-buttons">
+  <li><a href="https://github.com/zeit/next.js/tree/canary/examples/basic-css">Styled JSX</a></li>
+  <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-styled-components">Styled Components</a></li>
+  <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-styletron">Styletron</a></li>
+  <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-glamor">Glamor</a></li>
+  <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-cxs">Cxs</a></li>
+  <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-aphrodite">Aphrodite</a></li>
+  <li><a href="https://github.com/zeit/next.js/tree/canary/examples/with-fela">Fela</a></li>
+</ul>
 
 ## Sass, Less, and Stylus Support
 
