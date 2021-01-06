@@ -10,7 +10,7 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/bas
 
 Once you have access to [the environment variables you'll need](#step-5-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-prismic&env=PRISMIC_API_TOKEN,PRISMIC_REPOSITORY_NAME&envDescription=Required%20to%20connect%20the%20app%20with%20Prismic&envLink=https://vercel.link/cms-prismic-env)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-prismic&env=PRISMIC_API_TOKEN,PRISMIC_REPOSITORY_NAME,PRISMIC_REPOSITORY_LOCALE&envDescription=Required%20to%20connect%20the%20app%20with%20Prismic&envLink=https://vercel.link/cms-prismic-env)
 
 ### Related examples
 
@@ -82,11 +82,13 @@ Save the type and continue.
 
 ### Step 4. Populate Content
 
-Go to the **Content** page, it's in the menu at the top left, then click on **Create new** and select the **author** type:
+Go to the **Content** page (choose one of the icons from the left menu), then create a new **author**:
 
 - You just need **1 author document**.
 - Use dummy data for the text.
-- For the image, you can download one from [Unsplash](https://unsplash.com/).
+- For the image, you can use an image provided by Prismic or download one from [Unsplash](https://unsplash.com/).
+
+Then save and **publish** the author.
 
 Next, select **Post** and create a new document.
 
@@ -168,4 +170,4 @@ To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-prismic&env=PRISMIC_API_TOKEN,PRISMIC_REPOSITORY_NAME&envDescription=Required%20to%20connect%20the%20app%20with%20Prismic&envLink=https://vercel.link/cms-prismic-env)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-prismic&env=PRISMIC_API_TOKEN,PRISMIC_REPOSITORY_NAME,PRISMIC_REPOSITORY_LOCALE&envDescription=Required%20to%20connect%20the%20app%20with%20Prismic&envLink=https://vercel.link/cms-prismic-env)
